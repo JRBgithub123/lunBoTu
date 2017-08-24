@@ -1,0 +1,62 @@
+@charset 'utf-8';  /*为了查看中文注释*/
+
+html,
+body,
+div,
+ul,li,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.banner-wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 400px;
+	height: 260px;
+}
+.banner-wrapper .img-wrapper {
+	width: 2400px;
+	height: 100%;
+}
+.banner-wrapper .img-wrapper img {
+	float: left;
+	width: 400px;
+	height: 100%;
+}
+.banner-wrapper .arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	float: left;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #c33;
+}
+.banner-wrapper .arrow-left {
+	left: 0;
+}
+.banner-wrapper .arrow-right {
+	right: 0;
+}
+
+.banner-wrapper .circles {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
+.banner-wrapper .circles-item {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.banner-wrapper .circles-item.active {
+	background-color: #c33;
+}
